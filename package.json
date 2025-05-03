@@ -1,0 +1,20 @@
+{
+  "name": "tree_exercies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:cov": "NODE_OPTIONS=--experimental-vm-modules jest --coverage"
+  },
+  "private": true,
+  "dependencies": {
+    "@hexlet/immutable-fs-trees": "^0.7.2",
+    "loadsh": "^0.0.4"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
